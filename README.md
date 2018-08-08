@@ -8,10 +8,14 @@ LinkBuildingChecker is a small script that can help you in control activity of w
 
 1. Add the page and link to monitor in the Excel file linkbuildingchecker.xlsx (use Microsoft Excel or Libre Office and save all changes in Office 2007 format).
 
+![alt text](https://raw.githubusercontent.com/napp1/LinkBuildingChecker/master/img/xlsx-file.jpg)
+
 *In the XLSX file you will found some exemples if you need to test the script, delete them when you will need insert your links.*
 Save and close the file, don't leave it open while launch script execution.
 
 2. Set your e-mail parameters: SMPT server, sender e-mail, password, receiver e-mail
+
+![alt text](https://raw.githubusercontent.com/napp1/LinkBuildingChecker/master/img/email-parameters.jpg)
 
 
 3. Test the script!
