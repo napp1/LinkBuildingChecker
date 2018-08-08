@@ -4,7 +4,7 @@
 LinkBuildingChecker is a small script that can help you in control activity of what you earned during link building works.
 
 
-###How it works
+### How it works
 
 1. Add the page and link to monitor in the Excel file linkbuildingchecker.xlsx (use Microsoft Excel or Libre Office and save all changes in Office 2007 format).
 
@@ -25,7 +25,7 @@ An alert e-mail will be send when:
 
 If you need to disable e-mail reporting delete last line of code.
 
-###Dependecies
+### Dependecies
 You may need install some dependencies to make the script works:
 ```
 pip install requests
@@ -33,7 +33,7 @@ pip install beautifulsoup4
 pip install openpyxl
 ```
 
-###Note
+### Note
 LinkBuildingChecker is just my personal experiment with Python coding.
 If you have observations or you need help please write me!
 
