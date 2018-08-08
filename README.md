@@ -20,7 +20,7 @@ Save and close the file, don't leave it open while launch script execution.
 
 3. Test the script!
 XLSX file will be updated with link tag information and last time of visit.
-An alert e-mail will be send when:
+An alert e-mail will be sent when:
 - a page can't be reached or caused errors
 - a link isn't found in the scraped page
 - a link is changed from dofollow in nofollow
