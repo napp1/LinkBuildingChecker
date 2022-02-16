@@ -31,11 +31,13 @@ def check_link_now(row_position, checking_page, checking_link):
     last control in the XLSX file.
     """
     
+    headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
+    
     try:
         print(datetime.datetime.now(), " - Analyzing", checking_page, "--> searching for link", checking_link)
         link_founded = 0 #this is a counter to track how many times link is founded in the page
         #scrape the page and search for link
-        page_checking_page  = requests.get(checking_page)
+        page_checking_page  = requests.get(checking_page, headers=headers)
         #page_checking_page.encoding = "utf-8" #enable this line in case of econding problem
         data_checking_page = page_checking_page.text
         html_checking_page = BeautifulSoup(data_checking_page, "lxml") #parse the page using lxlm, alternatively try html5lib 
